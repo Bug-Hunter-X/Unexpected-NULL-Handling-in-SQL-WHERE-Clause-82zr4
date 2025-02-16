@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in SQL queries involving NULL values and comparison operators.  The `bug.sql` file contains a query that unintentionally excludes employees with NULL salaries. The solution, provided in `bugSolution.sql`, addresses this by explicitly handling NULL values.
